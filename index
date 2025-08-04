@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Materiali Stampabili - Il Mistero di Villa Corvo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ffcc00;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+    .button {
+      background-color: #ffcc00;
+      border: none;
+      color: black;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #e6b800;
+    }
+  </style>
+</head>
+<body>
+  <h1>Materiali Stampabili</h1>
+  <p>Scarica qui i file utili per risolvere gli enigmi del libro<br><strong>Il Mistero di Villa Corvo</strong></p>
+  <a href="materiali.pdf" class="button" download>📥 Scarica il PDF</a>
+</body>
+</html>
