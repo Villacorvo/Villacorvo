@@ -1,43 +1,110 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Materiali Stampabili - Il Mistero di Villa Corvo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Materiali Stampabili – Il Mistero di Villa Corvo</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1c1c1c;
       color: #f2f2f2;
-      text-align: center;
-      padding: 50px;
+      line-height: 1.6;
     }
-    h1 {
+    header {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 3px solid #ffcc00;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
       color: #ffcc00;
     }
-    p {
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .intro {
       font-size: 1.2em;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     .button {
       background-color: #ffcc00;
       border: none;
       color: black;
       padding: 15px 30px;
-      text-align: center;
-      text-decoration: none;
       font-size: 1.2em;
       border-radius: 8px;
       cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
       transition: background-color 0.3s;
     }
     .button:hover {
       background-color: #e6b800;
     }
+    .faq {
+      text-align: left;
+      margin-top: 60px;
+    }
+    .faq h2 {
+      color: #ffcc00;
+    }
+    .faq p {
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin: 60px 0 20px;
+      color: #888;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Materiali Stampabili</h1>
-  <p>Scarica qui i file utili per risolvere gli enigmi del libro<br><strong>Il Mistero di Villa Corvo</strong></p>
-  <a href="materiali.pdf" class="button" download>📥 Scarica il PDF</a>
+
+  <header>
+    <h1>Il Mistero di Villa Corvo</h1>
+  </header>
+
+  <div class="container">
+    <p class="intro">
+      Benvenuto nella sezione dedicata ai <strong>materiali stampabili</strong> del libro Escape Room<br>
+      <em>“Il Mistero di Villa Corvo”</em>. Qui puoi scaricare tutto ciò che ti serve per completare gli enigmi senza rovinare il libro.
+    </p>
+
+    <a href="materiali.pdf" class="button" download>📥 Scarica i Materiali in PDF</a>
+
+    <div class="faq">
+      <h2>🛠 Come si usa questo file?</h2>
+      <p><strong>1.</strong> Stampa le pagine che contengono elementi da ritagliare o compilare.</p>
+      <p><strong>2.</strong> Usale per interagire con il libro senza rovinarlo.</p>
+      <p><strong>3.</strong> Se giochi in squadra, puoi stampare una copia per ogni gruppo!</p>
+
+      <h2>📱 Serve anche il telefono?</h2>
+      <p>Sì! Alcuni enigmi richiedono la scansione di <strong>QR Code</strong> che ti porteranno a contenuti online. Basta uno smartphone con connessione Internet.</p>
+
+      <h2>🎯 Età consigliata?</h2>
+      <p>Il libro è adatto dai <strong>12 anni in su</strong>. Perfetto anche in gruppo o per sfide tra due squadre.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 – Il Mistero di Villa Corvo | Tutti i diritti riservati
+  </footer>
+
 </body>
 </html>
+
